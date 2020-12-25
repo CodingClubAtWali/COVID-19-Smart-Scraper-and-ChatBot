@@ -96,7 +96,7 @@ Patients that are in a critical condition <b>:</b> {criticalCondition}
 
 def smsSender(accountSid, authToken, myNumber):
     client = Client(accountSid, authToken)
-    messageBody = f"""As-salamu alaykum,
+    messageBody = f"""Hello,
 
 The following information contains the daily update on COVID-19:
 
