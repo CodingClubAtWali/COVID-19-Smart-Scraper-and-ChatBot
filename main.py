@@ -52,7 +52,7 @@ def stats():
         emailSender(f"{GmailEmail}", f"{GmailPassword}")
         smsSender(f"{AccountSID}", f"{AuthToken}", f"{PhoneNumber}")
         
-        time.sleep(600) # Make sure to change time
+        time.sleep(86400) # Make sure to change time
 
         
         
