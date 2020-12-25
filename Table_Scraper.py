@@ -43,7 +43,7 @@ def tableScraper():
             time.sleep(60)
         except:
             print("Temp Blocked, trying again")
-            time.sleep(1)
+            time.sleep(60)
             tableScraper()
 
 tableScraper()
