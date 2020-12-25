@@ -28,7 +28,7 @@ def emailSender(self):
     msgRoot.attach(msgAlternative)
     msgText = MIMEText('Alternative plain text message.')
     msgAlternative.attach(msgText)
-    msgText = MIMEText(f"""As-salamu alaykum,
+    msgText = MIMEText(f"""Hello,
 
 The following information contains the daily update on COVID-19:
 
@@ -51,7 +51,7 @@ Patients in critical condition:
 
 def smsSender(self, accountSid, authToken, myNumber):
     client = Client(accountSid, authToken)
-    messageBody = f"""As-salamu alaykum,
+    messageBody = f"""Hello,
 
 The following information contains the daily update on COVID-19:
 
