@@ -26,6 +26,8 @@ pip3 install pandas
 pip3 install ssl
 pip3 install twilio
 pip3 install lxml
+pip3 install bs4
+pip3 install dnspython
 ```
 
 ## Usage
