@@ -30,7 +30,7 @@ pip3 install bs4
 pip3 install dnspython
 ```
 
-You will also need the appropriate chromedriver that maches your chrome version installed. You chrome version can be seen from the following link ```bash
+You will also need the appropriate chromedriver that maches your chrome version installed. You chrome version can be seen from the following link```
 chrome://settings/help
 ```
 ## Usage
