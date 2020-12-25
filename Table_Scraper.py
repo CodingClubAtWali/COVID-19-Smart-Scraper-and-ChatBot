@@ -22,10 +22,10 @@ collection = db['Countries']
 def tableScraper():
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
-    driver = webdriver.Chrome(options=options)
+    
     while True:
         try:
-        
+            driver = webdriver.Chrome(options=options)
             driver.get("https://www.worldometers.info/coronavirus/?utm_campaign=homeAdvegas1?%22")
             WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.ID, "nav-tabContent")))
             time.sleep(10)
