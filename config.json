@@ -1,0 +1,9 @@
+{
+    "email": "",
+    "password": "",
+    "MongoConnectUrl": "",
+    "TwilioAccountSid" : "",
+    "TwilioAuthToken" : "",
+    "TwilioPhoneNumber" : ""
+
+}
