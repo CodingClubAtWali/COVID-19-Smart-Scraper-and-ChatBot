@@ -30,9 +30,8 @@ pip3 install bs4
 pip3 install dnspython
 ```
 
-You will also need the appropriate chromedriver that maches your chrome version installed. You chrome version can be seen from the following link```
-chrome://settings/help
-```
+You will also need the appropriate chromedriver that maches your chrome version installed. 
+
 ## Usage
 
 In order to get the code up and running you will need to configure the "config.json" file with the required values. Once the config.json file is filled, you can run the Table_Scraper.py in one screen and main.py in another (assuming you are running linux). If you are using windows, run Table_Scraper.py file in one terminal and main.py in another.
