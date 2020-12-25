@@ -67,7 +67,7 @@ def emailSender(email, password):
     msgRoot.attach(msgAlternative)
     msgText = MIMEText('Alternative plain text message.')
     msgAlternative.attach(msgText)
-    msgText = MIMEText(f"""As-salamu alaykum,
+    msgText = MIMEText(f"""Hello,
 <br>
 The following information contains the daily update on COVID-19:
 <br>
