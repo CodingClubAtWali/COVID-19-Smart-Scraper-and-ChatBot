@@ -30,7 +30,8 @@ pip3 install bs4
 pip3 install dnspython
 ```
 
-You will also need the appropriate chromedriver that maches your chrome version installed. 
+You will need to download the appropriate chromedriver that maches your chrome version installed. You can download a chromedriver from [Here](https://chromedriver.chromium.org/downloads)
+You will also need to make sure [Less Secure Apps](https://myaccount.google.com/lesssecureapps?) is enabled on your Gmail account
 
 ## Usage
 
@@ -39,4 +40,7 @@ In order to get the code up and running you will need to configure the "config.j
 ## Contributions
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
