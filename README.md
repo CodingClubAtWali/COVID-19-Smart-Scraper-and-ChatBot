@@ -30,7 +30,7 @@ pip3 install bs4
 pip3 install dnspython
 ```
 
-You will need to download the appropriate chromedriver that maches your chrome version installed. You can download a chromedriver from [Here](https://chromedriver.chromium.org/downloads)
+You will need to download the appropriate chromedriver that maches your chrome version. You can download a chromedriver from [Here](https://chromedriver.chromium.org/downloads).
 You will also need to make sure [Less Secure Apps](https://myaccount.google.com/lesssecureapps?) is enabled on your Gmail account
 
 ## Usage
